@@ -1,0 +1,30 @@
+.navbar {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  height: 50px;
+}
+
+.logo {
+  height: 35px;
+  width: 120px;
+}
+
+.searchbar {
+  width: 600px;
+  margin-left: 150px;
+  margin-right: 20px;
+}
+
+.navicon {
+  height: 25px;
+  color: #575252;
+  margin-right: 150px;
+}
+
+.nav-right-icon {
+  margin-left: 40px;
+  height: 20px;
+  color: #575252;
+}
+/*# sourceMappingURL=nav.css.map */

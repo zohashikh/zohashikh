@@ -1,0 +1,10 @@
+* {
+  padding: 2px;
+}
+
+.content {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+/*# sourceMappingURL=App.css.map */

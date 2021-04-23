@@ -1,0 +1,14 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: rgb(138, 73, 73);
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+*{
+    padding: 2px;
+}
+.content{
+    display: inline-flex;
+}
+//button:hover{ @include transform(rotate(30deg)); }

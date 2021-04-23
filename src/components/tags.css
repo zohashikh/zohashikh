@@ -1,0 +1,14 @@
+
+.tags{
+     display:inline-block;
+     list-style: none;
+     font-size: larger;
+     margin-left: 20px;
+
+     
+
+} 
+.btn{
+    padding-left: 12px;
+    padding-right: 12px;
+}
