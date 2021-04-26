@@ -1,0 +1,23 @@
+
+.circle{
+  
+    border-radius: 50%;
+    background-color:rgb(233, 173, 183);
+    width:55px;
+    height: 40px;
+    margin: 3px;
+    margin-right: 10px;
+}
+.content {
+ display: inline-flex;
+ width: 950px;
+height: 55px;
+margin-bottom: 5px;
+background-color: rgb(221, 216, 216);
+text-align: center;
+padding: 5px;
+
+}
+.file_time{
+    padding-left: 700px;
+}

@@ -1,0 +1,25 @@
+
+.det_circle{
+  
+    border-radius: 50%;
+    background-color:rgb(233, 173, 183);
+    width:70px;
+    height: 60px;
+    margin: 7px;
+    margin-right: 10px;
+}
+.container{
+    background-color: rgb(221, 216, 216);
+    margin:20px;
+}
+.title {
+ display: inline-flex;
+ width: 950px;
+padding-top: 5px;
+
+}
+
+.detail{
+    margin-bottom: 5px;
+    font-size: 20px;
+}
