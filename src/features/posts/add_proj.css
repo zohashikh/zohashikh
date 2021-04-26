@@ -1,0 +1,21 @@
+.add_proj_btn{
+    background-color: rgb(97, 182, 238);
+    border: 1px solid rgb(48, 157, 230);
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 250px;
+   
+}
+.section{
+    width:400px;
+    padding: 20px;
+    overflow: hidden;
+}
+.input{
+    margin: 20px;
+    width:300px;
+    padding: 20px;
+    background-color:rgb(228, 225, 225);
+    border: 1px solid rgb(228, 225, 225);
+}
