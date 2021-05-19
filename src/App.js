@@ -1,45 +1,28 @@
+import React from 'react';
+
+import './App.css';
+import Routes from "./Routes";
+import {Home} from './features/Home'
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import About from './containers/About'
-import {RegistrationForm}  from './containers/Login-Form/RegisterUser/Register'
-import Routes from "./Routes";
-import {Showdata} from './containers/Login-Form/Shoeuserdata'
-export default function App() {
+function App() {
   return (
-<div>
-    <RegistrationForm />
-   <Showdata />
-   </div>
-
-  );
-}
-
-/*
- <Router>
+    <Router>
       <div>
-        <button><Link to="/about">Home</Link></button>
+        <button><Link to="/">Home</Link></button>
+        <button><Link to="/about">About</Link></button>
+        <button><Link to="/register">Register</Link></button>
+        <button><Link to="/userdata">Users</Link></button>
+      
         <hr />
         <Routes />
       </div>
        </Router>
-    
-
-function Home() {
-  return (
-    <div>
-      <h2>Home</h2>
-    </div>
   );
 }
 
-function About1() {
-  return (
-    <div>
-<h1>About</h1>
-    </div>
-  );
-}  */
+export default App;
